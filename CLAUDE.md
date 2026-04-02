@@ -45,4 +45,4 @@ Device selection is automatic: `DEVICE = "cuda" if torch.cuda.is_available() els
 - Saved model weights go to `torch/results/` (e.g., `MLP.pt`)
 
 ## Commits to Github
-- 수정 파일 커밋/푸쉬 시, 중요한 변경사항이 있을 경우는 커밋 메시지 맨 앞에 별표를 붙임
+- When committing changes to Python or Jupyter notebook files, prefix the commit message with an asterisk (*) if the commit includes significant code changes
