@@ -43,3 +43,6 @@ Device selection is automatic: `DEVICE = "cuda" if torch.cuda.is_available() els
 - Data loading uses `torchvision.datasets` (MNIST, CIFAR-10, STL-10) and custom `Dataset` classes
 - Loss functions: `BCELoss`/`BCEWithLogitsLoss` for binary classification, `CrossEntropyLoss` for multiclass
 - Saved model weights go to `torch/results/` (e.g., `MLP.pt`)
+
+## Commits to Github
+- 수정 파일 커밋/푸쉬 시, 중요한 변경사항이 있을 경우는 커밋 메시지 맨 앞에 별표를 붙임
