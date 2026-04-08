@@ -14,3 +14,5 @@ env/
 
 # OS 파일
 .DS_Store
+torch/data/
+*.tar.gz
