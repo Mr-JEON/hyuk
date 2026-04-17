@@ -15,4 +15,5 @@ env/
 # OS 파일
 .DS_Store
 torch/data/
+Legend13/data/
 *.tar.gz
